@@ -1,0 +1,101 @@
+.logo {
+    height: 70px;
+}
+
+.additionalInfoLink{
+    text-decoration: none;
+}
+
+.additionalInfoList{
+    list-style: none;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 1;
+    width: 100%;
+  }
+
+
+.content {
+    position: relative;
+    bottom: 0;
+    color: #0f0101;
+    width: 100%;
+    height: auto;
+
+  }
+
+#tron {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#indexBox {
+    justify-content: center;
+
+  }
+
+
+
+#test0 {
+    color: white;
+    background-color: black;
+    opacity: .8;
+
+}
+
+
+
+.border {
+    border: none !important;
+}
+
+#test3 {
+    font-size: 1.5em;
+}
+
+#feet {
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+
+
+#youtube {
+    justify-items: center;
+    background-color: black !important;
+
+}
+
+#youtubetext {
+    color: white !important;
+    background: black;
+}
+
+#new {
+    font-size: 1.25em;
+    background-color: black;
+    color: white !important;
+}
+
+#anew {
+    color: white !important;
+    background-color: black !important;
+    opacity: .7;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    #myVideo{ display: none;
+            }
+    #new {
+        font-size: 1em;
+        background-color: black;
+        color: white !important;
+    }
+
+}
